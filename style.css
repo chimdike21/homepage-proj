@@ -1,0 +1,42 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration:none;
+}
+
+html{
+    font-size:10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Inter-Regular', sans-serif;
+}
+
+.page{
+    width:60%;
+    min-height:100vh;
+    margin:0 auto;
+    display:grid;
+    grid-template-areas:"heading heading heading"
+                         "main main sidebar";
+    grid-template-columns: repeat(3, 1fr);
+    gap:3rem;
+}
+
+.heading{
+    grid-area:header;
+    margin-top:9rem;
+    margin-bottom:5rem;
+}
+
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
