@@ -66,3 +66,64 @@ body{
 .nav-link:hover{
     color: hsl(5, 85%,63%);
 }
+
+.icon-button, .icon-button-close{
+    display:none;
+    background-color:transparent;
+    cursor:pointer;
+    border:none;
+}
+
+.main{
+    grid-area: main;
+
+}
+
+.main-img{
+    width:100%;
+    overflow:hidden;
+    margin-bottom:2rem;
+}
+
+.content{
+    display:flex;
+    flex-direction:row;
+    gap:3rem;
+}
+
+.content-head{
+    flex-basis:50%;
+    font-size:6rem;
+    font-family:'Inter-bold' sans-serif;
+    color:hsl(240, 100%, 5%);
+    line-height:1;
+}
+
+.c-content{
+    flex-basis:50%;
+}
+
+.content-p{
+    font-size:1.5rem;
+    color:hsl(236, 13%, 42%);
+    line-height:1.5;
+    margin-bottom:3rem;
+}
+
+.content-btn{
+    font-size:1.5rem;
+    text-transform:uppercase;
+    padding:1em 3rem;
+    background-color:hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    border:none;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5rem;
+}
+
+.content-btn:hover{
+    background-color: hsl(240, 100%, 5%);
+    color:hsl(36, 100%, 99%)
+}
+   
